@@ -1,0 +1,26 @@
+AI_NAME = 'AVALONIA' 
+username = 'human' 
+trust = 0 
+age = None 
+gender = None 
+
+print(format('Hello, {username}, mi name is {AI_NAME}'))
+answer = input('Would you like to give me your age?(y/n)') 
+if answer == 'y': 	
+    trust+1
+    age = input('({age}),Tnx') 
+    answer = input('Would you like to give me your gender?(y/n)') 
+    if answer == 'y': 	
+        trust+1
+        gender = input('({gender}),Tnx again') 
+        if trust=2
+            print("Thank you, {username} I would like to know you better")
+            trust +2
+        else:
+            print (format("So you are {username} with {age} years, I don't trust you"))    
+else:
+    print("Ok, I didn't even want it")
+if trust <4:
+    print("I don't really like you")
+else:
+    print("Thanks, I like you")
